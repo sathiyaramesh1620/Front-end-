@@ -1,0 +1,50 @@
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <h1>registration form</h1>
+        <form onsubmit="return validate()">
+<label> user name</label>
+<input type="text" id="user name">
+<span id="message" style="color: red;"></span><br><br>
+<label >Email</label>
+<input type="e mail" id="user email">
+<span id="emailmessage" style="color:red"></span><br><br>
+<label >password</label>
+<input type="text" id="userpassword">
+<span id=" passwordmessage" style=" color:red"></span>
+
+<input type="submit">   
+
+        </form>
+    </body>
+    <script>
+        function validate()
+        {
+            let name=document.getElementById("user name").value;
+            let email=document.getElementById("user email").value;
+            let password=document.getElementById("user password").value;
+            
+            if( name ==""){
+                document.getElementById("message").innerHTML ="please enter user name"
+            }
+            return false;
+            if( name.length<6)
+            {
+                document.getElementById("message").innerHTML = "min 6 char"
+
+            }
+            return false;
+            if( password.length<6)
+            { 
+                document.getElementById("passwordmessage").innerHTML =" please enter password" 
+            }
+            return false;
+        }
+        
+
+        
+
+    </script>
+  </html>

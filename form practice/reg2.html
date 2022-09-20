@@ -1,0 +1,25 @@
+<html>
+    <head></head>
+    <body>
+        <h1> registration form</h1>
+        <form  onsubmit="return validate()">
+            <label > user name</label>
+            <input type="text" id="username"/>
+            <span id="message" style="color: red;"></span>
+            <input type="submit"/>
+        </form>
+    </body>
+    <script>
+        function validate(){
+            let name = document.getElementById("username").value;
+            if(name ==""){
+                document.getElementById("message").innerHTML="please enter user name"
+            }
+            if(name.length){
+                document.getElementById("message").innerHTML =" min 6 char"
+            }
+            return false;
+        }
+
+    </script>
+</html>
