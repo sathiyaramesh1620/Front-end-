@@ -6,7 +6,7 @@ class Account{
     constructor(a,b,c){
         this.id=a;
         this.name=b;
-        this.ename=c;
+        this.ename=c
     }
     get_empolyee_details(){
         console.log(this.id)
