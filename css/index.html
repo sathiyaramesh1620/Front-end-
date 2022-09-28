@@ -1,11 +1,111 @@
 <html>
-    <head>
-        <title>
-            second web
-        </title>
-    </head>
-    <body>
-        <h1 style ="background-color: red;"> welcome to pro stack</h1>
-        
-    </body>
+
+<head>
+    <title>
+        second web
+    </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<style>
+/* tag name [div,body,nav,img,a] */
+/* class name [.container,.card, .car-body] */
+/* id   [abc, 123] */
+
+body{
+    background-color: blue;
+    color: rgb(255, 0, 0) ;
+}
+.container{
+    position: relative;
+    width: auto;
+    height: 90vh;
+    background-color: brown;
+    border-radius: 25px;
+    box-shadow: 5px 5px 7px white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.frame{
+    position: absolute;
+    width: 95px; 
+    height: 95px;
+   background-color: black;   
+   
+}
+.frame:hover{
+    width: 125px ;
+    height: 125px;
+    transition: 3s;
+    transform: retary(45px);
+    background-color: aqua;
+    
+
+}
+/* #abc{
+    background-color: black;
+}
+#a123{
+    background-color: aqua;
+} */
+/* .card{
+    background-color: bisque;
+    border-radius: 30px;
+    padding: 40px;
+    
+} */
+
+</style>
+</head>
+
+
+<body>
+    <nav class="navbar navbar bg-dark navbar-expand-lg">
+
+
+        <a href="#" class="navbar-brand">Pandi</a>
+        <div class="ml-auto">
+            <ul class="navbar-nav">
+                <li class="navbar-list"><a href="" class="nav-link">Home</a></li>
+                <li class="navbar-list"><a href="" class="nav-link">Contact</a></li>
+                <li class="navbar-list"><a href="" class="nav-link">Service</a></li>
+
+
+            </ul>
+        </div>
+
+    </nav>
+    <div class="container mt-1">
+
+        <div class="frame">
+
+        </div>
+        <!-- <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-head" id="abc">
+                        <h1>Head</h1>
+                    </div>
+                    <div class="card-body"id="a123">
+                        <h1>Body</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                <div class="card-head">
+                    <h1>Head</h1>
+                </div>
+                <div class="card-body">
+                    <h1>Body</h1>
+                </div></div>
+            </div>
+        </div> -->
+    </div>
+    
+
+</body>
+
 </html>
