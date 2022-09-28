@@ -6,7 +6,8 @@ let employees=[
 function displayData(){
     let row=""
     for( emp of employees){
-        row=row+`<tr><td>${emp.id}</td>
+        row=row+`<tr>
+        <td>${emp.id}</td>
         <td>${emp.name}</td>
         <td>${emp.email}</td>
         

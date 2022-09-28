@@ -9,3 +9,4 @@ let emp = new Object({
 
 )
 console.log(typeof emp)
+console.log(emp)
