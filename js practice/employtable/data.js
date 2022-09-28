@@ -17,4 +17,5 @@ function displayData(){
         
     }
     document.getElementById("sathiya").innerHTML=row;
+   
 }
