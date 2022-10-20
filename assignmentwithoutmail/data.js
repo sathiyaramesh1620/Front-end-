@@ -111,9 +111,10 @@ function displayData() {
                    <td>  ${emp.id}</td>
                    <td>  ${emp.first_name}</td>
                    <td>  ${emp.email}</td>
+                   
                    <td>  ${emp.gender}</td>
                    <td>  ${website}</td>
-                   <td>  ${emp.email.substr(0, emp.email.indexOf('@')+2)}</td>
+                   <td>  ${emp.email.substr(0, emp.email.indexof('@') + 1)}</td>
                  </tr>`
 
   }

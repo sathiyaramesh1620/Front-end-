@@ -1,5 +1,5 @@
 function mouseoverEx(){
-    document.getElementById("abc").style.backgroundColor="blue"
+    document.getElementById("aswini").style.backgroundColor="blue"
 }
 function mouseoutEx(){
     document.getElementById("def").style.backgroundColor="yellow"
@@ -19,5 +19,5 @@ function blurEx(){
     let tag_Ref=document.getElementById("ppp")
    // console.log(tag_Ref.value)
 
-    document.getElementById("ppp").value =tag_Ref.value.toUpperCase()
+    document.getElementById("ppp").value =tag_Ref.value.toLowerCase()
 }
